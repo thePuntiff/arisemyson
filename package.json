@@ -56,7 +56,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thePuntiff/arisemyson.git"
+    "url": "git+https://github.com/thePuntiff/arisemyson"
   },
   "scripts": {
     "develop": "npm run clean && gatsby develop",
