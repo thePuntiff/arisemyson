@@ -1,10 +1,10 @@
-const _ = require('lodash')
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import get from 'lodash/get'
 
 import Layout from '../components/Layout'
 import { useSiteMetadata } from '../hooks'
+const _ = require('lodash')
 
 const BlogIndex = ({ data, pageContext }) => {
   const { title, description } = useSiteMetadata()
